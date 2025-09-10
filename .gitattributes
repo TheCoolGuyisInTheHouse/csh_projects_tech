@@ -22,3 +22,7 @@
 /wk01-dy01-pr05/Dockerfile filter=lfs diff=lfs merge=lfs -text
 *.user filter=lfs diff=lfs merge=lfs -text
 /wk02-dy-01-pr01/Dockerfile filter=lfs diff=lfs merge=lfs -text
+*.config filter=lfs diff=lfs merge=lfs -text
+*.resx filter=lfs diff=lfs merge=lfs -text
+*.settings filter=lfs diff=lfs merge=lfs -text
+*.resources filter=lfs diff=lfs merge=lfs -text
