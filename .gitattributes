@@ -41,3 +41,5 @@
 *.db-shm filter=lfs diff=lfs merge=lfs -text
 *.db-wal filter=lfs diff=lfs merge=lfs -text
 /wk11-dy01-pr01/Dockerfile filter=lfs diff=lfs merge=lfs -text
+/wk10-dy01-pr01/Dockerfile filter=lfs diff=lfs merge=lfs -text
+/wk11-dy01-pr02/Dockerfile filter=lfs diff=lfs merge=lfs -text
