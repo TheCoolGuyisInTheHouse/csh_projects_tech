@@ -1,0 +1,51 @@
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+# Visual Studio cache and user files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Generated files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.db
+*.db-shm
+*.db-wal
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup / autosave
+*~
+*.bak
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Resharper / Rider
+_ReSharper*/
+*.DotSettings.user
+
+# Copilot / session artifacts
+.vs/*/copilot-chat/
+
+# Others
+*.lastbuildstate
+*.tlog
