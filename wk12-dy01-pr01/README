@@ -1,0 +1,63 @@
+# Member ID: 123_45_6789_0000
+## README
+
+
+## Instructions Mapping and Comment Notes
+
+1. Named CS_330_123_45_6789_0000
+2. Implementation self-explanatory; no comment required.
+3. Refer to Form1.Designer.cs.
+4. Refer to Form1.Designer.cs.
+5. Refer to Form1.Designer.cs. 
+6. Refer to the Design Choices section.
+7. Refer to comment 7 in Form1.cs.
+All formatting is in Form1.Designer.cs
+    <ol type="a">
+    <li>Refer to coment 7.a. in Form1.cs
+        <ol type="i">
+        <li>Refer to comment 7.a.i. in Form1.cs</li>
+        <li>Refer to comment 7.a.ii. in Form1.cs</li>
+        <li>Refer to comment 7.a.iii. in Form1.cs,</li>
+        </ol>
+    </li>
+    <li>Refer to comment 7.b. in Form1.cs</li>
+    <li>Refer to comment 7.c. in Form1.cs</li>
+8. Refer to comment 8. in Form1.cs
+    <ol type="a">
+    <li>Refer to comment 8.a. in Form1.cs
+        <ol type="i">
+        <li>Refer to comment 8.a.i. in Form1.cs</li>
+        </ol>
+    </li>
+    <li>Refer to Form1.cs, comment 8.b.  Did this for runtime efficiency
+    and programming time.</li>
+    </ol>
+9. Refer to comment 9. in Form1.cs.
+    <ol type="a">
+    <li>Refer to comment 9.a. in Form1.cs
+        <ol type="i">
+        <li>Refer to comment 9.a.i. in Form1.cs</li>
+        </ol>
+    </li>
+    <li>Refer to comment 9.b. in Form1.cs.
+        <ol type="i">
+        <li>Refer to comment 9.b.i. in Form1.cs.
+        <li>Refer to comment 9.b.ii. in Form1.cs.
+        </ol>
+    </li>
+
+
+## Design Choices
+
+- Set the Quiz's font to 14 pt instead of manually setting each control's font.
+- Most controls are anchored to the top left corner of the Form, but btnSubmit    
+is anchored to the center of the bottom of the form, and btnNext is anchored    
+to the bottom right corner.
+- Beginning text on Radio Buttons are unnecessary and unprofessional.
+- int userAnswer was chosen to be zero if there is no answer, and 1-4
+if a current answer is locked in.
+- Used another thread to start one application before closing another.  
+This helped circumvent the limitation to one thread.
+
+## Assumptions
+- None
